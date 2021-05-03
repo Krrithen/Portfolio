@@ -468,7 +468,7 @@ flex-direction: column;
     {
         position: relative;
         min-height: 100vh;
-        background: url(banner-pe.png);
+        background: url(banner-pe.jpeg);
         background-size: cover;
         background-position: right;
         display: flex;
