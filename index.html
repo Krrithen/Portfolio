@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a> 
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Skills</a></li>
+        <li><a href="#works" onclick="toggleMenu();">Works</a></li>
+        <li><a href="#testimonial" onclick="toggleMenu();">Inspiration</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+      </ul>
+    </header>
+
+    <section class ="banner" id="home">
+      <div>
+        <h2>Hello, I'm<br><span>Krrithen.</span></h2>
+        <h3>| Aspiring SDE | Machine Learning Enthusiast |</h3>
+        <a href="#about" class="btn">About Me</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="heading">
+        <h2>About Me</h2>
+      </div>
+      <div class ="content">
+        <div class="contentBx w50">
+          <h3>My Interest To Code</h3>
+          <p>
+            Ever since young age , I've been fascinated by programming languages and how these can be used to solve real-life problem, creating algorithms that are both optimized and scalable.
+            <br><br>
+            This interest brought me though many topics like Data Science , Ethical Hacking, Machine Learning and many more. But one thing that makes me work more is the field of Artificial Intelligence using NPL & Computer Vision.
+            <br><br>
+            Motivation :
+            ᴅᴏɴ’ᴛ ᴡɪꜱʜ ꜰᴏʀ ɪᴛ... ᴡᴏʀᴋ ꜰᴏʀ ɪᴛ
+          </p>
+        </div>
+        <div class="w50">
+          <img src ="images/NEUTRALS.png" class="img">
+        </div>
+      </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="heading white">
+          <h2>My Skills</h2>
+          <p>  Upskilling on the latest techologies & chasing dreams.  </p>
+        </div>
+        <div class="content">
+          <div class="servicesBx">
+            <img src="images/icon1c.png">
+            <h2>Desktop Applications</h2>
+            <p> <br>Built various kinds of stand-alone desktop applications using languages like python and java. These applications are also integrated with web and are focused to be build with a smooth interface.It has been designed closely for better functionality and interaction.</p>
+          </div>
+          <div class="servicesBx">
+            <img src="images/icon2.png">
+            <h2>Machine Learing</h2>
+            <p><br>Analysed data and trained different models to achieve better accuracy and predictions. Algorithms include <br>Regression<br>Decision Tree<br>Naive Bayes<br>K-means Clustering<br>Support Vector Machines</p>
+          </div>
+          <div class="servicesBx">
+            <img src="images/icon3a.png">
+            <h2>Competative Coding</h2>
+            <p> <br>Constant attention towards problems on various topics which include the understanding of time and space complexity. Data Structues and Algorithms being the heart of programming is worked up on daily bases. </p>
+          </div>
+          <div class="servicesBx">
+            <img src="images/icon4.png">
+            <h2>Photography</h2>
+            <p><br> Photography is more than just a skill or talent, it's a passion that needs constant fulfillment. Learning and getting inspired each day leads towards a deeper sense of what is being Photographed. To capture what i see and to feel the spark of nature is where my pictures speak.</p>
+          </div>
+          <div class="servicesBx">
+            <img src="images/icon1.png">
+            <h2>Web Design</h2>
+            <p><br> The user interface makes a huge difference and this excites me about ones interaction with the design. Working on projects to get a greater sense of how interactive one could design and implement a web page. More is yet to come. </p>
+          </div>
+          <div class="servicesBx">
+            <img src="images/icon6.png">
+            <h2>Media Editing</h2>
+            <p><br> The word Media being a larger context is something that makes me think creative. All i do is <br>Video Editing<br>Picture Edits<br>Content Writing<br>Poster Design<br>Graphic Design</p>
+          </div>
+        </div>
+      </section>
+
+      <section class ="work" id="works">
+        <div class="heading">
+          <h2>My Latest Work</h2>
+          <p>  A glipmse of my learnings & interests.  </p>
+        </div>
+        <div class="content">
+          <div class="workBx">
+            <img src="images/pro1.png">
+          </div>
+          <div class="workBx">
+            <img src="images/pro2.png">
+          </div>
+          <div class="workBx">
+            <img src="images/pro3.png">
+          </div>
+          <div class="workBx">
+            <img src="images/pro4.png">
+          </div>
+          <div class="workBx">
+            <img src="images/pro5.png">
+          </div>
+          <div class="workBx">
+            <img src="images/pro6.png">
+          </div>
+        </div>
+          <div class="heading">
+            <a href="https://github.com/Krrithen" class ="btn">View More</a>
+        </div>
+      </section>
+
+      <section class="testimonial" id="testimonial">
+        <div class="heading">
+          <h2>Inspiration</h2>
+          <p>   The only place where success comes before work is in the dictionary.   </p>
+        </div>
+        <div class="content">
+          <div class="testimonialBx">
+            <p>  “When something is important enough, you do it even if the odds are not in your favour.” <br>"Persistence is very important. You should not give up unless you are forced to. give up.”</p>
+            <h3>Elon Musk <br><span>Business Magnate</span></h3>
+          </div>
+          <div class="testimonialBx">
+            <p> “If you are going to have a risk-taking culture, you can’t really look at every failure as a failure, you’ve got to be able to look at the failure as a learning opportunity.” </p>
+            <h3>Satya Nadella <br><span>Business Executive</span></h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="heading white">
+          <h2>Contact Me</h2>
+          <p>   Ready to explore the world of possibilities.    </p>
+        </div>
+        <div class="content">
+          <div class="contactInfo">
+            <h3>Contact Info</h3>
+            <div class="contactInfoBx">
+              <div class="box">
+                <div class="icon">
+                  <i class="fa fa-map-marker"></i>
+                </div>
+                  <div class="text">
+                    <h3>Address</h3>
+                    <p>NHCE<br>Ring Road, Bellandur Post,<br>Bangalore, Karnataka <br>560 103</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon">
+                    <i class="fa fa-envelope-o"></i>
+                  </div>
+                    <div class="text">
+                      <h3>Email</h3>
+                      <p>krithin2525@gmail.com</p>
+                    </div>
+                  </div>
+                <div class="box">
+                  <div class="icon">
+                    <i class="fa fa-instagram"></i>
+                  </div>
+                    <div class="text">
+                      <h3>Instagram ID</h3>
+                      <p>krrithen_746</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          
+        <div class="formBx">
+          <form>
+            <h3>Message Me</h3>
+            <input type="text" name="" placeholder="Full Name">
+            <input type="email" name="" placeholder="Email">
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send">
+          </form>
+        </div>
+        </div>
+      </section>
+
+      <div class="copyright">
+        <p>Copyright © 2021 Krrithen. All Right Reserved.</p>
+      </div>
+      <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+          var header = document.querySelector('header');
+          header.classList.toggle('sticky',window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+          var menuToggle = document.querySelector('.toggle');
+          var menu = document.querySelector('.menu');
+          menuToggle.classList.toggle('active');
+          menu.classList.toggle('active');
+        }
+      </script>
+  </body>
+</html>
+
